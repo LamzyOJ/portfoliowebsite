@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(32, 32, 32);
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 95vh;
+  gap: 2rem;
+  border-bottom: 1px solid white;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: flex-start; */
+  width: fit-content;
+  padding-left: 4rem;
+  gap: 1rem;
+}
+
+.intro {
+  font-size: 4.5rem;
+  width: fit-content;
+  color: white;
+  border-color: 1px solid white;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* text-align: left; */
+  width: 44rem;
+  font-size: 22px;
+  color: white;
+}
+
+.me {
+  border-radius: 15%;
+  height: 25rem;
+  width: 25rem;
+}
+
+.skills {
+  padding: 2rem;
+  border-bottom: 1px solid #fff;
+}
+
+.skillset {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  /* width: 100%; */
+  padding: 1rem;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.lang {
+  height: 10rem;
+  width: 10rem;
+}
+
+.projects {
+  padding: 6rem;
+}
+
+.templates {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  gap: 4rem;
+}
+
+.snips {
+  height: 20rem;
+  width: 30rem;
+  border-radius: 1.5rem;
+  border: 8px solid white;
+}
+
+.snips:hover {
+  height: 21rem;
+  width: 31rem;
+}
+
+footer {
+  background-color: rgb(49, 49, 49);
+  /* height: 40vh; */
+  width: 100%;
+  padding: 2rem;
+}
+
+.reach {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.phone {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.contactnum {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  width: fit-content;
+}
+
+.footer_details {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+  padding-left: 7.8rem;
+}
+.contactemail {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  width: fit-content;
+}
+
+.handles {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.handles:hover {
+  text-decoration: underline;
+  color: #cac9c9;
+}
+
+@media screen and (max-width: 1115px) {
+  .intro {
+    font-size: 3.5rem;
+  }
+
+  .me {
+    height: 23rem;
+    width: 18rem;
+  }
+
+  .about {
+    width: 35rem;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .snips {
+    height: 17rem;
+    width: 24rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .me {
+    width: 16rem;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .me {
+    height: 16rem;
+    width: 14rem;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .section1 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 6rem;
+  }
+
+  .me {
+    height: 16rem;
+    width: 17rem;
+  }
+
+  .snips {
+    height: 15rem;
+    width: 21rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .templates {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer_details {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .section1 {
+    padding: 0;
+    padding-bottom: 6rem;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .intro {
+    font-size: 2.5rem;
+  }
+
+  .about {
+    width: 24rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .snips:hover {
+    height: 16rem;
+    width: 23rem;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .intro {
+    font-size: 2.1rem;
+  }
+
+  .about {
+    width: 21rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .aboutme {
+    padding-left: 2rem;
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .aboutme {
+    padding-left: 1rem;
+  }
+
+  .intro {
+    font-size: 1.9rem;
+  }
+
+  .about {
+    width: 19.5rem;
+  }
+
+  .snips {
+    height: 12rem;
+    width: 16rem;
+  }
+
+  .snips:hover {
+    height: 13rem;
+    width: 17rem;
+  }
+}
